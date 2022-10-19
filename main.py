@@ -102,16 +102,15 @@ def tst(p1, p2):
 if __name__ == '__main__':
 
     ###################### ------ CONFIG --------- ##################
-
     threshold = 1               # threshold in percents (float)
     volume = 200                # trade volume. ex: 0.01 or 2000
     base_cur = 'USDT'           # base currency. ex: BTC USDT LTC ETH
     revs = 200                  # count of positive reviews. ex: 500
     bc_cache = 60               # bestchange cache in seconds
-    chat_id = '288772431'       # ChatId TG
+    chat_id = '<ChanID>'       # ChatId TG
     #################################################################
 
-    bot = telebot.TeleBot('5610455030:AAFG57Lag2JP_Or9k6pFmzVPkJc2_9BNfs4');
+    bot = telebot.TeleBot('<TELEGRAM_BOT_TOKEN>');
 
 
 #    @bot.message_handler(content_types=['text'])
