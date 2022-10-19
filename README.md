@@ -1,7 +1,7 @@
 # Crypto ARB
 Cryptocurrency Spread Checker Telegram Bot
 
-Сканироует Binance и Bestchange на наличие арбитражных ситуаций, согласно настройкам и отсылает результат в Telegram бот
+Сканирует Binance и Bestchange на наличие арбитражных ситуаций, согласно настройкам и отсылает результат в Telegram бот
 ```python
     ###################### ------ CONFIG --------- ##################
     threshold = 1               # threshold in percents (float)
